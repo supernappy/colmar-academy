@@ -1,0 +1,32 @@
+.header {
+  max-width: 100%;
+  height: 64px;
+  display: block;
+  background-color: white;
+}
+.logo {
+  height: 32px;
+  padding-left: 24px;
+  float: left;
+}
+.navigation {
+  height: 100%;
+  float: right;
+  margin: 0 auto;
+  padding-right: 24px;
+  padding-bottom: 40px;
+}
+.navigation a {
+  max-height: 100%;
+  display: table;
+  float: left;
+  padding: 0 16px;
+}
+
+.navigation a li {
+  display: table-cell;
+  max-height: 100%;
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
